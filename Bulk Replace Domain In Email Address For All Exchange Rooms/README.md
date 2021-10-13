@@ -1,1 +1,1 @@
-This script will replace thedomain in the Email Address for all Exchange Rooms
+This script will search all the resorces of type Room and will replace the domain in the Email Address with the new defined one ($NewDomain)
