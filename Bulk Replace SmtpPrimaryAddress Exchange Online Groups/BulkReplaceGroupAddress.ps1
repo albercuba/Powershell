@@ -1,6 +1,5 @@
 ##########################################################################
 # O365 bulk replace domain in SmtpPrimaryAddress for all Exchange groups #
-#                           13.10.2021                                   #
 ##########################################################################
 
 # Import necessary module
