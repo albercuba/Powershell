@@ -1,4 +1,6 @@
-# Check if BitLocker is enabled in C:. If it is not, enable it and encrypt the drives
+#######################################################################################
+# Check if BitLocker is enabled in C:. If it is not, enable it and encrypt the drives #
+#######################################################################################
 
 $OutputVariable = (Get-BitlockerVolume -MountPoint "C:")
 If ($OutputVariable.protectionstatus -like "Off") 
